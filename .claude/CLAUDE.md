@@ -412,8 +412,7 @@ Before every `git push`, mentally verify:
 
 <!-- AUTO:REMOTE-PATHS — managed by rule §9.2. Derived from `git remote -v`. Do not edit by hand. -->
 
-- **Public issue tracker (GitHub):** github.com/[org]/[repo]/issues
-- **Private issue tracker (GitLab):** gitlab.bancolini.local/[group]/[repo]/-/issues
+- **Public issue tracker (GitHub):** https://github.com/Al3ssi03/runner-analytics/issues
 
 <!-- /AUTO:REMOTE-PATHS -->
 
@@ -424,3 +423,19 @@ Before every `git push`, mentally verify:
 
 *Last manual revision: update this date after every significant change to the file.*
 *Generated with the support of Claude — review and adapt to the specific project.*
+
+---
+
+## Agent skills
+
+### Issue tracker
+
+GitHub Issues (`github.com/Al3ssi03/runner-analytics`). External PRs are a triage surface. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Default vocabulary: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: `CONTEXT.md` at root + `docs/adr/`. See `docs/agents/domain.md`.
